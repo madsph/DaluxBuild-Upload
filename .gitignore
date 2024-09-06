@@ -1,34 +1,96 @@
-# Java Build
-.gradle
-.classpath
-dump.rdb
-out
-bin
-target
-buildscan.log
-/docs/site
+# Ignore Visual Studio temporary files, build results, and
+# common settings for C# projects
 
-# Python
-/polyglot-clients/python/conductor.egg-info
-*.pyc
+# User-specific files
+.vscode/
+*.vs
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
 
-# OS & IDE
-.DS_Store
-.settings
-.vscode
-.idea
-.project
-*.iml
+# Mono Auto Generated Files
+mono_crash.*
 
-# JS & UI Related
-node_modules
-/ui/build
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
 
-# publishing secrets
-secrets/signing-key
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
 
-# local builds
-lib/
-build/
-*/build/
+# Folder config file
+Desktop.ini
 
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# ASP.NET Scaffolding
+.scaffolding
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.log
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+# Uncomment if necessary, generally not required.
+# packages/*/
+
+# Microsoft Azure Build results
+csx/
+*.build.csdef
+
+# Windows Store app packages
+AppPackages/
+BundleArtifacts/
+
+# Visual Studio 2019+
+.vs/
+.vsconfig
+
+# Rider project files
+.idea/
+.idea/*
+
+# Tooling
+.tff/
+
+# Local history
+.localhistory/
+
+# Rider files
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/shelf
+.idea/caches
+
+# Resharper settings
+_ReSharper*
+*.DotSettings.user
+
+# MSBuild binary log
+*.binlog
+
+# Python files (if present)
+__pycache__/
+
+# Include certificates from .NET Core
+!/.certificates/
